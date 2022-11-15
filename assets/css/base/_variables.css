@@ -1,0 +1,29 @@
+:root {
+  --font-family-body:'Ubuntu Condensed', sans-serif;
+  --font-family-logo:'Ubuntu Mono', monospace;
+
+  --font-weigth-input: 300;
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #6C4AB6;
+  --secondary-color: #8D72E1;
+  --contrast-dark-color: #4d4d4d;
+  --contrast-light-color: #fff;
+  --warning-color: #df2525;
+  --success-color: #047900;
+  --transparency-color: #2e2e2e33;
+  --shadow: 0 5px 10px #30303038;
+  
+}
+@media (min-width: 800px) {
+  :root {
+    --font-size-logo: 56px;
+  }
+}
