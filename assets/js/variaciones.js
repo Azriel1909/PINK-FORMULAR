@@ -42,6 +42,22 @@ const errorMensaje = {
   nacimiento: {
     valueMissing: 'El campo Fecha de Nacimiento no puede estar vacío.',
     CustomError:'Debes tener al menos 18 años de edad para registrarte.'
+  },
+  numero: {
+    valueMissing: 'El campo Número no puede estar vacío.',
+    patternMismatch: 'El formato requerido debe contener 10 números.'
+  },
+  direccion: {
+    valueMissing: 'El campo Dirección no puede estar vacío.',
+    patternMismatch: 'El formato requerido debe contener de 10 números a 40 caracteres.'
+  },
+  ciudad: {
+    valueMissing: 'El campo Ciudad no puede estar vacío.',
+    patternMismatch: 'El formato requerido debe contener de 10 números a 40 caracteres.'
+  },
+  estado: {
+    valueMissing: 'El campo Estado no puede estar vacío.',
+    patternMismatch: 'El formato requerido debe contener de 10 números a 40 caracteres.'
   }
 }
 
